@@ -1,0 +1,111 @@
+.Market-main {
+  background-color: #091D2E;
+  padding: 10px;
+  color: white;
+  min-height: 100vh;
+}
+
+.Market-Analysis {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 3rem;
+}
+.step-two-span{
+  font-size: 2rem;
+}
+.step-two{
+  padding-top: 2rem;
+}
+.Market-Anaysis-1{
+  font-size: 2em;
+}
+.step-three-span{
+  padding-top: 2rem;
+}
+.step-three{
+  padding-top: 2rem;
+}
+.step-three-span{
+  font-size: 2rem;
+}
+.step-four{
+  padding-top: 2rem;
+}
+
+
+
+.Market-Anaysis-1 {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.Market-Analysis input[type="text"] {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  font-size: 0.9em; 
+}
+
+.Market-Analysis button {
+  padding: 8px 15px;
+  margin: 5px 3px;
+  background-color: #d9dfda42;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em; 
+}
+
+.Market-Analysis button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.table-container {
+  margin-top: 10px;
+  overflow-x: auto; 
+  overflow-y: hidden; 
+  white-space: nowrap; 
+}
+
+.results-table {
+  min-width: 100%; 
+  border-collapse: collapse;
+}
+
+.results-table th, .results-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.results-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.results-table-params {
+  background-color: #343a40;
+}
+
+.view-more-button {
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 8px 15px;
+  background-color: #091D2E;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.view-more-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  margin: 0;
+  overflow-x: hidden; 
+}
+
+.MidPage-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap; 
+  overflow: hidden; 
+}
+
+.Image-Wrapper {
+  position: relative;
+}
+
+.header-text {
+  padding-top: 2rem;
+  padding-left: 4rem;
+}
+
+.header-span {
+  color: white;
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+}
+
+.Left-Midpage-Text {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 6rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  max-width: 90%;
+}
+
+.header-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+}
+
+.p-text {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.Right-img {
+  height: 50rem;
+  max-width: 100%; 
+  width: auto;
+}
+
+.search-button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: rgba(98, 96, 96, 0.996);
+  cursor: pointer;
+  width: 21rem;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  margin-top: 1rem;
+}
+
+.search-button:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+.main-text,
+.p-text {
+  opacity: 0;
+  animation: slide-up 1.2s ease forwards;
+}
+
+.search-button {
+  opacity: 0;
+  animation: slide-up 1.2s ease forwards 0.8s;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
